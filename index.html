@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script defer src="calculator.js"></script>
+</head>
+<body>
+    <h1>calculator</h1>
+    <div class="calc">
+        <div id="screen">
+            <input type="text" id="screen1" placeholder="0">
+
+        </div>
+        
+        
+        <div class="buttons-row1">
+            <button onclick="clear()"class="but-r1">AC</button>
+            <button onclick="calc()"class="but-r1">=</button>
+        </div>
+            
+        <div class="buttons-row2">
+            <button onclick="input('.')"class="but">.</button>
+            <button onclick="input('+')"class="but">+</button>
+            <button onclick="input('-')"class="but">-</button>
+        </div>
+
+        <div class="buttons-row3">
+            <button onclick="input('*')"class="but">*</button>
+            <button onclick="input('/')"class="but">/</button>
+            <button onclick="input('1')"class="but">1</button>
+        </div>
+
+        <div class="buttons-row4">
+            <button onclick="input('2')" class="but">2</button>
+            <button onclick="input('3')"class="but">3</button>
+            <button onclick="input('4')"class="but">4</button>
+        </div>
+
+        <div class="buttons-row5">
+
+            <button onclick="input('5')"class="but">5</button>
+            <button onclick="input('6')"class="but">6</button>
+            <button onclick="input('7')"class="but">7</button>
+        </div>
+
+        <div class="button-row6">
+            <button onclick="input('8')"class="but">8</button>
+            <button onclick="input('9')"class="but">9</button>
+            <button onclick="input('0')"class="but">0</button>
+        </div>
+    </div>
+    
+</body>
+</html>

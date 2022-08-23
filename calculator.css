@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(215, 220, 198);
+}
+
+.calc{
+    text-align: center;
+    margin-top: 110px;
+    
+}
+
+#screen1{
+    text-align: right;
+    font-size: 37px;
+
+}
+
+.buttons-row1{
+    margin-top: 5px;
+}
+.but-r1{
+width: 228px;
+height: 50px;
+border-radius: 1cm;
+background-color: aqua;
+font-size: 25px;
+}
+
+.but{
+    width: 152px;
+    height: 50px;
+    border-radius: 1cm;
+    font-size: 25px;
+
+}
+ 
